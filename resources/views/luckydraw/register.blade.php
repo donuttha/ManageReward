@@ -4,7 +4,7 @@
     <title>ลงทะเบียนลุ้นโชค</title>
 </head>
 <body>
-    <h1>ลงทะเบียนลุ้นโชค</h1>
+    <h1>ลงทะเบียนร่วมกิจกรรม HBD Xiaozhan</h1>
 
     @if(session('success'))
         <p style="color: green">{{ session('success') }}</p>
@@ -15,6 +15,7 @@
         <input type="text" name="name" placeholder="ชื่อ-นามสกุล" required><br><br>
         <input type="email" name="email" placeholder="อีเมล" required><br><br>
         <input type="text" name="phone" placeholder="เบอร์โทรศัพท์" required><br><br>
+        <input type="text" name="address" placeholder="ที่อยู่สำหรับส่งของรางวัล" required><br><br>
         <input type="file" name="image" accept="image/*"><br><br>
         <button type="submit">ลงทะเบียน</button>
     </form>

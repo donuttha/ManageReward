@@ -6,5 +6,5 @@ use Illuminate\Database\Eloquent\Model;
 
 class LuckyDraw extends Model
 {
-    protected $fillable = ['name', 'email', 'phone', 'image_path'];
+    protected $fillable = ['name', 'email', 'phone', 'image_path', 'address'];
 }
